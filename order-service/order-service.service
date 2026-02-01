@@ -1,0 +1,14 @@
+[Unit]
+Description=Order Service
+After=network.target
+
+[Service]
+Type=simple
+User=user
+WorkingDirectory=/home/user/microservices/order-service
+Environment="PATH=/home/user/microservices/order-service/venv/bin"
+ExecStart=/home/user/microservices/order-service/venv/bin/python main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

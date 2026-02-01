@@ -1,0 +1,14 @@
+[Unit]
+Description=User Service
+After=network.target
+
+[Service]
+Type=simple
+User=user
+WorkingDirectory=/home/user/microservices/user-service
+Environment="PATH=/home/user/microservices/user-service/venv/bin"
+ExecStart=/home/user/microservices/user-service/venv/bin/python main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

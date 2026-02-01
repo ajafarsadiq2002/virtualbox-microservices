@@ -1,0 +1,14 @@
+[Unit]
+Description=API Gateway
+After=network.target
+
+[Service]
+Type=simple
+User=user
+WorkingDirectory=/home/user/microservices/api-gateway
+Environment="PATH=/home/user/microservices/api-gateway/venv/bin"
+ExecStart=/home/user/microservices/api-gateway/venv/bin/python main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
