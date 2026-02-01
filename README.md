@@ -47,7 +47,6 @@ This project implements a production-ready microservices system with:
 virtualbox-microservices/
 ├── .gitignore                       # Git ignore rules
 ├── README.md                        # Project overview and setup guide
-├── GIT_SETUP.md                     # Git repository setup guide
 ├── ARCHITECTURE_DESIGN.md           # Architecture diagrams and design
 │
 ├── api-gateway/
@@ -227,7 +226,6 @@ curl http://192.168.29.233:3000/api/orders/1
 | Document | Description |
 |----------|-------------|
 | [README.md](README.md) | Project overview and setup guide |
-| [GIT_SETUP.md](GIT_SETUP.md) | Git repository setup and commands |
 | [ARCHITECTURE_DESIGN.md](ARCHITECTURE_DESIGN.md) | System architecture and design diagrams |
 | [api-gateway/README.md](api-gateway/README.md) | API Gateway service documentation |
 | [user-service/README.md](user-service/README.md) | User Service documentation |
@@ -242,7 +240,6 @@ curl http://192.168.29.233:3000/api/orders/1
 | User Service Source | Complete | user-service/ |
 | Order Service Source | Complete | order-service/ |
 | SystemD Configurations | Complete | *.service files |
-| Git Setup Guide | Complete | GIT_SETUP.md |
 
 ## Access URLs
 
