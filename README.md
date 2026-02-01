@@ -36,7 +36,7 @@ This project implements a production-ready microservices system with:
             ▼                         ▼
 ┌───────────────────────┐  ┌───────────────────────┐
 │    Order Service      │  │     User Service      │
-│   VM2 (ubuntu 2)      │  │    VM3 (ubuntu 1)     │
+│   VM2 (ubuntu 1)      │  │    VM3 (ubuntu 2)     │
 │   192.168.29.234:3002 │──│   192.168.29.235:3001 │
 └───────────────────────┘  └───────────────────────┘
 ```
